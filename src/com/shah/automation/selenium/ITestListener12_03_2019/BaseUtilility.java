@@ -24,6 +24,7 @@ import org.testng.annotations.Test;
 
 public class BaseUtilility
 {
+	private static String name;
 	private static String baseDir;
 	private static WebDriver driver;
 	private static String tcName;
